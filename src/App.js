@@ -4,6 +4,8 @@ import Heading from "./components/Heading"
 import Header from "./components/Header"
 import Player from "./components/Player"
 import Board from "./components/Board"
+import Square from "./components/Square"
+import "./styles.css"
 
 function App(){
   return (<>
@@ -11,6 +13,7 @@ function App(){
   <Player whichPlayer='X'/>
   <Player whichPlayer='O'/>
   <Board/>
+
   </>)
 }
 
