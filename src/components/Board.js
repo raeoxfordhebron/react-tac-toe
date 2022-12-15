@@ -1,5 +1,9 @@
 function Board(){
-    return <h1> Board </h1>
+    return (
+        <div>
+            the board!
+        </div>
+    )
 }
 
 export default Board

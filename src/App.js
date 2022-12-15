@@ -8,7 +8,9 @@ import Board from "./components/Board"
 function App(){
   return (<>
   <Header/>
-  <Player/>
+  <Player whichPlayer='X'/>
+  <Player whichPlayer='O'/>
+  <Board/>
   </>)
 }
 
